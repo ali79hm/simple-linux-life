@@ -81,4 +81,20 @@ curl -s https://example.com/data.json | jsonless
 
 You can use the usual `less` controls: Space or Page Down to move forward, `b` to move back, `/` to search, and `q` to quit.
 
+### credit
+
+`credit` checks API usage for NeuralWatt or OpenRouter:
+
+```bash
+export NEURALWATT_API_KEY=your_api_key
+credit nw
+credit neuralwatt
+
+export OPENROUTER_API_KEY=your_api_key
+credit or
+credit openrouter
+```
+
+`credit nw` and `credit neuralwatt` check NeuralWatt. `credit or` and `credit openrouter` check OpenRouter. The function prints an export command when the required API key is not set.
+
 ---
