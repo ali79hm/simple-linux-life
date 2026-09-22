@@ -1,0 +1,1 @@
+{"name":"Test User","active":true,"balance":12.5,"usage":{"requests":42,"tokens":123456,"energy_kwh":0.1234},"projects":[{"name":"alpha","status":"running"},{"name":"beta","status":"stopped"}],"tags":["dev","api","json"]}
